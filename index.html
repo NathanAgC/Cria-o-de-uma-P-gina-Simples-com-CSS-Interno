@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de navegação</title>
+    <style>
+        * {
+    margin: 0;
+    /*Removendo as margens padrão*/
+    padding: 0;
+    /*Remevendo o preechimento padrão*/
+    box-sizing: border-box;
+    /*ajusta o padding e o margin do elemento para que todos os elementos internos sejam considerados como se estivessem dentro do elemento*/
+}
+
+/*Estilizar o cabeçalho*/
+header {
+    background-color: #333;
+    /*define a cor de fundo do cabeçalho*/
+    padding: 20px 0px;
+    /*Adciona espaçamento na parte superior e inferior do cabeçalho*/
+}
+
+nav ul {
+   
+    display: flex;
+    /*define a exibição dos itens da lista para linha*/
+    list-style: none;
+    /*Remove os marcadores*/
+    justify-content: center;
+    /*Centralizar os itens do menu ao centro*/
+    margin: 15px;
+    /*define espaçamento entre linhas*/
+}
+
+nav ul li a {
+    color: white;
+    /*cor da letra branca*/
+    text-decoration: none;
+    /*removendo o sublinhado*/
+    font-weight: bold;
+    /*define os textos do link em negrito*/
+    padding: 5px 10px;
+    transition: color 0.10s;
+}
+
+nav ul li a:hover {
+    color: bisque;
+    /*Efeito ao passar o mouse*/
+}
+
+section{
+    padding: 60px 20px;
+    text-align: center;
+    height: 900px;
+   
+}
+#home{
+    background-color: beige;
+}
+#sobre{
+    background-color: lightblue;
+   
+}
+
+#contato{
+    background-color: lavender;
+}
+    </style>
+</head>
+
+<body>
+    <div class="Menu-Navegacao">
+        <header><!--cabeçalho do menu de navegação -->
+            <nav><!--Indica que tudo que esta dentro dela faz parte da nevegação da pagina-->
+                <ul><!--Lista não ordenada-->
+                    <li><a href="#home">Home</a></li><!--link para secão home-->
+                    <li><a href="#sobre">Sobre</a></li><!--link para secão sobre-->
+                    <li><a href="#contato">Contato</a></li> <!--link para secão contato-->
+                    <li><a href="#areas de atuacao">Áreas de Atuação</a></li>
+                    <li><a href="#trabalhe conosco">Trabalhe Conosco</a></li>
+                    <li><a href="#institucional">Institucional</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section id="home">
+        <h1>🍔 Venha conhecer a Junio's Burger! 🍔</h1>
+        <p> Aqui, cada mordida é uma explosão de sabor! Nossos hambúrgueres são preparados com carnes selecionadas, 
+            ingredientes frescos e combinações únicas que vão surpreender seu paladar. Do clássico ao artesanal, temos o burger perfeito para você. E o melhor: 
+            sempre com aquele atendimento que faz você se sentir em casa.
+        </p>
+        <img src="img/images.jpeg" alt="">
+        <img src="img/images (1).jpeg" alt="">
+    </section>
+
+    <section id="sobre">
+        <h1>Sobre a Junio's Burger</h1>
+        <p>No Junio’s Burger, nossa paixão é criar hambúrgueres inesquecíveis! Desde o início, nosso objetivo foi oferecer aos clientes não só uma refeição, mas uma experiência gastronômica. Combinamos ingredientes de alta qualidade, carnes suculentas e temperos exclusivos para criar o hambúrguer perfeito em cada pedido.
+
+            Valorizamos o frescor em cada detalhe: nossos pães são artesanais, os vegetais sempre frescos e as combinações de sabores pensadas para agradar todos os gostos. Do clássico ao inovador, nossos burgers são feitos com carinho e dedicação.
+            
+            Mais que um restaurante, somos um ponto de encontro para quem ama boa comida em um ambiente descontraído e acolhedor. Seja com os amigos, a família ou até mesmo sozinho, aqui você sempre será bem-vindo!
+        </p>
+        <h3>🍔 Junio's Burger – Onde o sabor ganha personalidade!</h3>
+        <img src="img/b9ad772005653afce4d4bd46c2efe842_XL.jpg" alt="">
+    </section>
+
+    <section id="contato">
+        <h1>Já faça seu delicioso pedido!</h1>
+        <p>nosso contato via whatsapp:</p>
+        <a href="https://web.whatsapp.com/">99901-9654</a>
+    </section>
+
+    <section id="areas de atuacao">
+        <h1>Áreas de Atuação</h1>
+        <p>Esta e a seção inicial da página</p>
+    </section>
+
+    <section id="trabalhe conosco">
+        <h1>Trabalhe Conosco</h1>
+        <p>Esta e a seção inicial da página</p>
+    </section>
+
+    <section id="institucional">
+        <h1>Institucional</h1>
+        <p>Esta e a seção inicial da página</p>
+    </section>
+</body>
+
+</html>
